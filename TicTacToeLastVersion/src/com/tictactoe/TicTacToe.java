@@ -105,10 +105,11 @@ public class TicTacToe extends JFrame
         java.util.List botRow = Arrays.asList(7,8,9);
         java.util.List leftCol = Arrays.asList(1,4,7);
         java.util.List midCol = Arrays.asList(2,5,8);
-        java.util.List rightCol = Arrays.asList(3,6,9);
+        java.util.List rightCol = Arrays.asList(3,6,9)
         java.util.List cross1 = Arrays.asList(1,5,9);
         java.util.List cross2 = Arrays.asList(3,5,7);
 
+        System.out.println("lol");
 
         java.util.List<java.util.List> winning = new ArrayList<java.util.List>();
 
