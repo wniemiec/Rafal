@@ -105,7 +105,10 @@ public class TicTacToe extends JFrame
         java.util.List botRow = Arrays.asList(7,8,9);
         java.util.List leftCol = Arrays.asList(1,4,7);
         java.util.List midCol = Arrays.asList(2,5,8);
-        java.util.List rightCol = Arrays.asList(3,6,9)
+        java.util.List rightCol = Arrays.asList(3,6,9);
+        java.util.List leftCol = Arrays.asList(1,4,7);
+        java.util.List midCol = Arrays.asList(2,5,8);
+        java.util.List rightCol = Arrays.asList(3,6,9);
         java.util.List cross1 = Arrays.asList(1,5,9);
         java.util.List cross2 = Arrays.asList(3,5,7);
 
@@ -121,9 +124,9 @@ public class TicTacToe extends JFrame
         winning.add(rightCol);
         winning.add(cross1);
         winning.add(cross2);
+asdasasasdas
 
-
-        for(List key : winning)
+        for(List key : winning)dasddasdasd
         {
             if(playerPosition.containsAll(key))
             {
@@ -136,6 +139,7 @@ public class TicTacToe extends JFrame
                 hasWinner = true;
             }
         }
+        System.out.println("lol");
         return 1;
     }
 
