@@ -24,6 +24,7 @@ public class TicTacToe extends JFrame
     public TicTacToe()
     {
         super("Tic Tac Toe");
+		super("Tic Tac Toe");
         title = new JLabel("TIC TAC TOE");
         title.setForeground(Color.WHITE);
         title.setBounds(220,500,700,300);
